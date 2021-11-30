@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1>Lokasi objek wisata</h1>
+    <h1>Lokasi Objek Wisata</h1>
     <hr>
     <form action="{{ isset($lokasi)?route("lokasi.update",$lokasi):route("lokasi.store") }}" method="POST">
         @isset($lokasi)

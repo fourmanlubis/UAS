@@ -41,7 +41,7 @@
             @enderror
         </div>
         <div class="form-group">
-            <label for="pengunjung">jumlah pengunjung</label>
+            <label for="pengunjung">Jumlah Pengunjung</label>
             <input type="number" class="form-control @error("pengunjung") is-invalid @enderror" name="pengunjung"
                 value="{{ isset($pengunjung)?$pengunjung->pengunjung:old("pengunjung") }}">
             @error('pengunjung')

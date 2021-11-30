@@ -7,7 +7,7 @@
             {{ session("info") }}
         </div>
     @endif
-    <h1>Form Wisata</h1>
+    <h1>Nama Wisata</h1>
     <hr>
     <form action="{{ isset($wisata)?route("wisata.update",$wisata):route("wisata.store") }}" method="post">
         @isset($wisata)

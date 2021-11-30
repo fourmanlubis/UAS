@@ -37,13 +37,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
-                                Input
+                                ADMIN
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ route("wisata.index") }}">Objek wisata</a>
-                                <a class="dropdown-item" href="{{ route("lokasi.index") }}">lokasi objek wisata</a>
+                                <a class="dropdown-item" href="{{ route("wisata.index") }}">OBJEK WISATA</a>
+                                <a class="dropdown-item" href="{{ route("lokasi.index") }}">LOKASI WISATA</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="{{ route("pengunjung.index") }}">jumlah pengunjung</a>
+                                <a class="dropdown-item" href="{{ route("pengunjung.index") }}">PENGINAPAN</a>
                             </div>
                         </li>
                     </ul>

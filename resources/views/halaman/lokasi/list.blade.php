@@ -7,7 +7,16 @@
             {{ session("info") }}
         </div>
     @endif
-    <h1>lokasi objek wisata</h1>
+    <h1>Lokasi Objek Wisata</h1>
+    <html lang="en">
+    <head>
+    </head>
+    <body>
+        <p>Untuk lebih lengkapnya, silahkan buka:
+            <a href="https://www.google.com/search?q=lokasi+objek+wisata+dan+jalur+jalan+di+kabupaten+samosir&rlz=1C1CHBF_enID974ID974&oq=lokasi+objek+wisata+dan+jalur+jalan+di+kabu&aqs=chrome.4.69i57j33i160l5j33i21.22410j0j7&sourceid=chrome&ie=UTF-8">Lokasi wisata di samosir</a>
+        </p>
+    </body>
+    </html>
     <hr>
     <div class="d-flex flex-row-reverse mb-2">
         <a href="{{ route("lokasi.create") }}" class="btn btn-success">Tambah</a>
